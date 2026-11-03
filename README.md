@@ -1,37 +1,24 @@
 
-<!-- ===================================================== -->
-<!--                 GADE AMEESHA PROFILE                   -->
-<!--                 CINEMATIC BURGUNDY THEME                -->
-<!-- ===================================================== -->
-
-<!-- ANIMATED HERO BANNER -->
+<!-- =============== CINEMATIC HERO =============== -->
 
 <div align="center">
-  <img src="assets/ameesha-hero.svg" width="100%" alt="Gade Ameesha Profile Banner"/>
+  <img src="assets/ameesha-hero.svg" width="100%" alt="Gade Ameesha"/>
+</div>
+
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=E5B5C7&center=true&vCenter=true&width=750&lines=Software+Developer;QA+Engineer;Python+%7C+SQL+%7C+Java+%7C+C%23;Building+and+Testing+Real+World+Projects" alt="Typing Animation"/>
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=GadeAmeesha&label=PROFILE+VISITORS&color=701A3D&style=for-the-badge"/>
 </div>
 
 <br/>
 
-<!-- ANIMATED TYPING EFFECT -->
+<!-- =============== ABOUT =============== -->
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=E5B5C7&center=true&vCenter=true&width=750&lines=Software+Developer;QA+Engineer;Python+%7C+SQL+%7C+Java+%7C+C%23;Building+Applications+%7C+Testing+Solutions;Learning+%7C+Building+%7C+Improving" alt="Animated Introduction"/>
-</div>
-
-<br/>
-
-<!-- PROFILE VISITOR COUNTER -->
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=GadeAmeesha&label=PROFILE+VISITORS&color=701A3D&style=for-the-badge" alt="Profile Visitors"/>
-</div>
-
-<br/>
-
-<!-- ABOUT ME -->
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&height=55&text=ABOUT%20ME&fontSize=28&fontColor=E5B5C7&fontAlign=50&fontAlignY=55&animation=twinkling" width="100%" alt="About Me"/>
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=65&text=ABOUT%20ME&fontSize=30&fontColor=E5B5C7&animation=twinkling" width="100%"/>
 </div>
 
 <p align="center">
@@ -39,7 +26,7 @@
 </p>
 
 <p align="center">
-  I enjoy building practical applications, exploring new technologies, identifying software defects, and improving application quality.
+  I enjoy developing practical applications, exploring technologies, identifying software defects and improving application quality.
 </p>
 
 <div align="center">
@@ -58,16 +45,16 @@
 
 <br/>
 
-<!-- TECHNICAL SKILLS -->
+<!-- =============== SKILLS =============== -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&height=55&text=TECHNICAL%20SKILLS&fontSize=28&fontColor=E5B5C7&fontAlign=50&fontAlignY=55&animation=twinkling" width="100%" alt="Technical Skills"/>
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=65&text=TECHNICAL%20SKILLS&fontSize=30&fontColor=E5B5C7&animation=twinkling" width="100%"/>
 </div>
 
 <h3 align="center">Programming Languages</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,cs,html,css" alt="Programming Skills"/>
+  <img src="https://skillicons.dev/icons?i=python,java,cs,html,css"/>
 </p>
 
 <h3 align="center">Testing Skills</h3>
@@ -81,10 +68,10 @@
   <img src="https://img.shields.io/badge/Defect%20Reporting-8C3158?style=for-the-badge"/>
 </p>
 
-<h3 align="center">Frameworks, Database & Tools</h3>
+<h3 align="center">Tools & Technologies</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=flask,sqlite,git,github,vscode,linux" alt="Tools and Technologies"/>
+  <img src="https://skillicons.dev/icons?i=flask,sqlite,git,github,vscode,linux"/>
 </p>
 
 <p align="center">
@@ -94,110 +81,100 @@
 
 <br/>
 
-<!-- EXPERIENCE -->
+<!-- =============== EXPERIENCE =============== -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&height=55&text=PROFESSIONAL%20EXPERIENCE&fontSize=26&fontColor=E5B5C7&fontAlign=50&fontAlignY=55&animation=twinkling" width="100%" alt="Professional Experience"/>
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=65&text=EXPERIENCE&fontSize=30&fontColor=E5B5C7&animation=twinkling" width="100%"/>
 </div>
 
-### Tester Trainee | MSC Technologies
+### Tester Trainee — MSC Technologies
 
 **April 2026 – September 2026**
 
 - Gained practical exposure to software testing concepts.
 - Created and executed test cases for a live Maintenance & Repair (M&R) application.
 - Practiced manual testing and defect identification.
-- Learned functional testing and regression testing concepts.
-- Developed an understanding of real-world software testing workflows.
+- Learned functional and regression testing concepts.
+- Experienced real-world testing workflows.
 
 <br/>
 
-<!-- FEATURED PROJECTS -->
+<!-- =============== PROJECTS =============== -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&height=55&text=FEATURED%20PROJECTS&fontSize=28&fontColor=E5B5C7&fontAlign=50&fontAlignY=55&animation=twinkling" width="100%" alt="Featured Projects"/>
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=65&text=FEATURED%20PROJECTS&fontSize=30&fontColor=E5B5C7&animation=twinkling" width="100%"/>
 </div>
 
 <p align="center">
-  <i>Selected projects showcasing my work in Quality Assurance, Software Development and Data Analytics.</i>
+  <i>Selected work in Quality Assurance, Software Development and Data Analytics.</i>
 </p>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-<h3>01. E-commerce Website Manual Testing</h3>
+<h3>01 | E-commerce Manual Testing</h3>
 
-<p><b>Focus:</b> Manual QA Testing</p>
+**Focus:** Manual QA Testing
 
-- Prepared test scenarios and test cases.
-- Created test data for application testing.
-- Documented defects and test reports.
-- Practiced e-commerce testing workflows.
+- Test scenarios and test cases
+- Test data preparation
+- Defect reporting
+- E-commerce application testing
 
-<p>
 <a href="https://github.com/GadeAmeesha/Ecommerce-Website-Manual-Testing">
-<img src="https://img.shields.io/badge/EXPLORE%20PROJECT-701A3D?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-701A3D?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-</p>
 
 </td>
-
 <td width="50%" valign="top">
 
-<h3>02. Manual Testing – Login Page</h3>
+<h3>02 | Login Page Manual Testing</h3>
 
-<p><b>Focus:</b> Functional Testing</p>
+**Focus:** Functional Testing
 
-- Designed login page test scenarios.
-- Created positive and negative test cases.
-- Practiced defect identification.
-- Documented testing results.
+- Login test scenarios
+- Positive and negative test cases
+- Defect identification
+- Test documentation
 
-<p>
 <a href="https://github.com/GadeAmeesha/Manual-Testing-Login-Page">
-<img src="https://img.shields.io/badge/EXPLORE%20PROJECT-701A3D?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-701A3D?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-</p>
 
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
 
-<h3>03. PasswordVault</h3>
+<h3>03 | PasswordVault</h3>
 
-<p><b>Technologies:</b> Python · Flask · SQLite</p>
+**Technologies:** Python · Flask · SQLite
 
-- Developed a password management application.
-- Implemented PIN-based authentication.
-- Integrated TOTP-based two-factor authentication.
-- Used encryption to protect stored passwords.
+- Password management application
+- PIN-based authentication
+- TOTP two-factor authentication
+- Encrypted password storage
 
-<p>
 <a href="https://github.com/GadeAmeesha/PasswordVault">
-<img src="https://img.shields.io/badge/EXPLORE%20PROJECT-701A3D?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-701A3D?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-</p>
 
 </td>
-
 <td width="50%" valign="top">
 
-<h3>04. Enterprise Sales Analytics</h3>
+<h3>04 | Enterprise Sales Analytics</h3>
 
-<p><b>Technologies:</b> SQL · Excel</p>
+**Technologies:** SQL · Excel
 
-- Analyzed enterprise sales data using SQL.
-- Created Excel dashboards.
-- Explored business data and sales insights.
+- Enterprise sales data analysis
+- SQL-based data exploration
+- Excel dashboard development
+- Business sales insights
 
-<p>
 <a href="https://github.com/GadeAmeesha/Enterprise-Sales-Analytics">
-<img src="https://img.shields.io/badge/EXPLORE%20PROJECT-701A3D?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/VIEW%20PROJECT-701A3D?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
-</p>
 
 </td>
 </tr>
@@ -205,34 +182,34 @@
 
 <br/>
 
-<!-- EDUCATION -->
+<!-- =============== EDUCATION =============== -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&height=55&text=EDUCATION&fontSize=28&fontColor=E5B5C7&fontAlign=50&fontAlignY=55&animation=twinkling" width="100%" alt="Education"/>
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=65&text=EDUCATION&fontSize=30&fontColor=E5B5C7&animation=twinkling" width="100%"/>
 </div>
 
 <div align="center">
 
 ### Dr. M.G.R. Educational and Research Institute
 
-**Bachelor of Technology – Computer Science and Engineering**
+**Computer Science and Engineering**
 
-<sub>CGPA: 8.8</sub>
+CGPA: **8.8**
 
 </div>
 
 <br/>
 
-<!-- CERTIFICATIONS -->
+<!-- =============== CERTIFICATIONS =============== -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&height=55&text=CERTIFICATIONS&fontSize=28&fontColor=E5B5C7&fontAlign=50&fontAlignY=55&animation=twinkling" width="100%" alt="Certifications"/>
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=65&text=CERTIFICATIONS&fontSize=30&fontColor=E5B5C7&animation=twinkling" width="100%"/>
 </div>
 
 <div align="center">
 
 | Certification | Organization |
-|---|---|
+|:---|:---:|
 | Python for Data Science | NPTEL |
 | Data Science for Engineers | NPTEL |
 | Python Essentials | Cisco |
@@ -242,10 +219,10 @@
 
 <br/>
 
-<!-- GITHUB ACTIVITY -->
+<!-- =============== GITHUB ACTIVITY =============== -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&height=55&text=GITHUB%20ACTIVITY&fontSize=28&fontColor=E5B5C7&fontAlign=50&fontAlignY=55&animation=twinkling" width="100%" alt="GitHub Activity"/>
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=65&text=GITHUB%20ACTIVITY&fontSize=30&fontColor=E5B5C7&animation=twinkling" width="100%"/>
 </div>
 
 <div align="center">
@@ -254,10 +231,10 @@
 
 <br/>
 
-<!-- CONNECT -->
+<!-- =============== CONNECT =============== -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&height=55&text=LET'S%20CONNECT&fontSize=28&fontColor=E5B5C7&fontAlign=50&fontAlignY=55&animation=twinkling" width="100%" alt="Let's Connect"/>
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=65&text=CONNECT%20WITH%20ME&fontSize=30&fontColor=E5B5C7&animation=twinkling" width="100%"/>
 </div>
 
 <p align="center">
@@ -271,15 +248,13 @@
 
 <br/>
 
-<!-- ANIMATED FOOTER -->
+<!-- =============== FOOTER =============== -->
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:10070C,50:701A3D,100:10070C&height=140&section=footer&animation=twinkling" width="100%" alt="Animated Burgundy Footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:10070C,50:701A3D,100:10070C&height=160&section=footer&animation=twinkling" width="100%"/>
 </div>
 
-<h3 align="center">
-  ✦ BUILD • TEST • LEARN • IMPROVE ✦
-</h3>
+<h3 align="center">✦ BUILD • TEST • LEARN • IMPROVE ✦</h3>
 
 <p align="center">
   <i>"Great software is built with creativity, tested with precision, and improved with consistency."</i>
