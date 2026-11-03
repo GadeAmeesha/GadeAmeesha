@@ -1,4 +1,6 @@
-
+<div align="center">
+  <img src="assets/ameesha-hero.svg" width="100%" alt="Gade Ameesha - Software Developer and QA Engineer"/>
+</div>
 <div align="center">
 
 # GADE AMEESHA
