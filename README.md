@@ -1,134 +1,171 @@
+
+<!-- ================= HERO BANNER ================= -->
+
 <div align="center">
   <img src="assets/ameesha-hero.svg" width="100%" alt="Gade Ameesha - Software Developer and QA Engineer"/>
 </div>
+
+<br/>
+
+<!-- ================= TYPING ANIMATION ================= -->
+
 <div align="center">
-
-# GADE AMEESHA
-
-### Software Developer | QA Engineer
-
-*Building practical applications. Testing for quality. Learning continuously.*
-
-[![GitHub](https://img.shields.io/badge/GitHub-GadeAmeesha-701A3D?style=for-the-badge&logo=github)](https://github.com/GadeAmeesha)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-701A3D?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/gade-ameesha)
-
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=C77B9B&center=true&vCenter=true&width=650&lines=Software+Developer;QA+Engineer;Python+%7C+SQL+%7C+C%23;Building+and+Testing+Real-World+Projects" alt="Typing SVG"/>
 </div>
 
----
+<br/>
 
-## 👩‍💻 About Me
+<!-- ================= ABOUT ME ================= -->
 
-Hi! I'm **Gade Ameesha**, a Computer Science graduate interested in software development and quality assurance.
+<h2 align="center">✦ ABOUT ME ✦</h2>
 
-- 🎓 Computer Science graduate from Dr. M.G.R. Educational and Research Institute.
-- 💻 Interested in developing practical software applications.
-- 🧪 Experienced in manual testing and test case design.
-- 🔍 Interested in software quality, debugging, and problem-solving.
-- 🌱 Continuously learning development and test automation.
+<p align="center">
+  Hello! I'm <b>Gade Ameesha</b>, a Computer Science graduate passionate about building reliable software and creating quality-driven solutions.
+</p>
 
-**My Goal:** To build reliable software applications and contribute to delivering quality products.
+- 🎓 Computer Science Graduate – Dr. M.G.R. Educational and Research Institute
+- 💻 Interested in Software Development and Quality Assurance
+- 🧪 Experience in Manual Testing and Test Case Design
+- 🐍 Working with Python, SQL, Java and C#
+- 🔍 Interested in understanding application behavior and improving software quality
+- 🌱 Continuously learning, building and improving.
 
----
+<br/>
 
-## 🛠️ Technical Skills
+<!-- ================= SKILLS ================= -->
 
-**Programming Languages**
-- Python
-- Java
-- C#
+<h2 align="center">✦ TECHNICAL SKILLS ✦</h2>
 
-**Database**
-- SQL
-- SQLite
+<h3 align="center">Programming Languages</h3>
 
-**Software Testing**
-- Manual Testing
-- Functional Testing
-- Regression Testing
-- Smoke Testing
-- Sanity Testing
-- Test Case Design
-- Bug Life Cycle
-- SDLC & STLC
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,cs,html,css,sqlite" />
+</p>
 
-**Development**
-- HTML
-- CSS
-- Flask
+<h3 align="center">Testing & Development</h3>
 
-**Tools**
-- Git & GitHub
-- Azure DevOps
-- Visual Studio Code
-- Linux
+<p align="center">
+  <img src="https://img.shields.io/badge/Manual%20Testing-701A3D?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Test%20Case%20Design-8C3158?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/SDLC%20%7C%20STLC-701A3D?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Regression%20Testing-8C3158?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Functional%20Testing-701A3D?style=for-the-badge"/>
+</p>
 
----
+<h3 align="center">Tools & Technologies</h3>
 
-## 💼 Professional Experience
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,flask,linux" />
+</p>
 
-**Tester Trainee | MSC Technologies**
+<p align="center">
+  <img src="https://img.shields.io/badge/Azure%20DevOps-701A3D?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/SQLite-8C3158?style=for-the-badge"/>
+</p>
 
-*April 2026 – September 2026*
+<br/>
 
-- Learned software testing concepts and methodologies.
-- Created and executed test cases for a live M&R application.
-- Practiced functional testing and defect identification.
-- Gained exposure to real-world software development and testing workflows.
+<!-- ================= EXPERIENCE ================= -->
 
----
+<h2 align="center">✦ PROFESSIONAL EXPERIENCE ✦</h2>
 
-## 🚀 Featured Projects
+### Tester Trainee | MSC Technologies
+**April 2026 – September 2026**
+
+- Gained practical exposure to software testing concepts.
+- Created and executed test cases for a live Maintenance & Repair (M&R) application.
+- Learned manual testing processes and defect identification.
+- Worked with testing concepts including functional and regression testing.
+
+<br/>
+
+<!-- ================= PROJECTS ================= -->
+
+<h2 align="center">✦ FEATURED PROJECTS ✦</h2>
 
 ### 1. PasswordVault
-A secure password management application with PIN authentication and encrypted password storage.
+**Technologies:** Python · Flask · SQLite
 
-**Technologies:** Python, Flask, SQLite, PyOTP, Fernet
+- Developed a password management application.
+- Implemented PIN-based login and registration.
+- Integrated TOTP-based two-factor authentication.
+- Used encryption to protect stored passwords.
 
-[View Project](https://github.com/GadeAmeesha/PasswordVault)
+<p>
+  <a href="https://github.com/GadeAmeesha/PasswordVault">
+    <img src="https://img.shields.io/badge/VIEW%20PROJECT-701A3D?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
 ### 2. Air Pollution Forecasting and Health Risk Correlation
-A machine learning project that forecasts air pollution levels and explores health risk correlations.
 
-**Technologies:** Python, XGBoost, Streamlit, Folium
+**Technologies:** Python · XGBoost · Streamlit · Folium
+
+- Developed an air quality forecasting project.
+- Applied XGBoost for AQI prediction.
+- Explored health-risk correlations across age groups.
+- Built an interactive application using Streamlit and Folium.
 
 ### 3. Collaborative Whiteboard
-A collaborative workspace project focused on interactive teamwork.
+
+**Focus:** Collaborative application development
+
+- Worked on a collaborative whiteboard project.
+- Explored interactive application features and collaboration concepts.
 
 ### 4. Smart Resume Analyzer
-A project focused on analyzing resumes and extracting relevant information.
 
----
+**Focus:** Resume analysis
 
-## 🎓 Education
+- Developed a project focused on resume analysis.
+- Explored ways to evaluate resume content and relevant skills.
+
+<br/>
+
+<!-- ================= EDUCATION ================= -->
+
+<h2 align="center">✦ EDUCATION ✦</h2>
 
 **Dr. M.G.R. Educational and Research Institute**
 
-Computer Science and Engineering
+Bachelor's Degree – Computer Science and Engineering
 
-CGPA: 8.8
+CGPA: **8.8**
 
----
+<br/>
 
-## 📜 Certifications
+<!-- ================= CERTIFICATIONS ================= -->
+
+<h2 align="center">✦ CERTIFICATIONS ✦</h2>
 
 - NPTEL – Python for Data Science
 - NPTEL – Data Science for Engineers
 - Cisco – Python Essentials
 - Red Hat – RH124
 
----
+<br/>
 
-## 🌐 Connect With Me
+<!-- ================= CONNECT ================= -->
 
-- LinkedIn: [Gade Ameesha](https://linkedin.com/in/gade-ameesha)
-- GitHub: [GadeAmeesha](https://github.com/GadeAmeesha)
+<h2 align="center">✦ LET'S CONNECT ✦</h2>
 
----
+<p align="center">
+  <a href="https://linkedin.com/in/gade-ameesha">
+    <img src="https://img.shields.io/badge/LinkedIn-701A3D?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://github.com/GadeAmeesha">
+    <img src="https://img.shields.io/badge/GitHub-8C3158?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+<br/>
 
 <div align="center">
-
-### LEARN • BUILD • TEST • IMPROVE
-
-*Always curious. Always growing.*
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:10070C,50:701A3D,100:10070C&height=120&section=footer" width="100%"/>
 </div>
+
+<p align="center">
+  <i>"Great software is built with creativity, tested with precision, and improved with consistency."</i>
+</p>
+
+<h3 align="center">Thanks for visiting my profile! ✨</h3>
