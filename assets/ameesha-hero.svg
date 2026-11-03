@@ -1,79 +1,95 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#10070C"/>
-      <stop offset="55%" stop-color="#351020"/>
-      <stop offset="100%" stop-color="#10070C"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080509"/>
+      <stop offset=".48" stop-color="#260D1A"/>
+      <stop offset="1" stop-color="#080509"/>
     </linearGradient>
-
-    <linearGradient id="wine">
-      <stop offset="0%" stop-color="#701A3D"/>
-      <stop offset="50%" stop-color="#E5B5C7"/>
-      <stop offset="100%" stop-color="#701A3D"/>
-      <animate attributeName="x1" values="0;1;0" dur="6s" repeatCount="indefinite"/>
+    <linearGradient id="rose" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#701A3D"/>
+      <stop offset=".5" stop-color="#F0B9D0"/>
+      <stop offset="1" stop-color="#8B3158"/>
     </linearGradient>
-
-    <radialGradient id="glow">
-      <stop offset="0%" stop-color="#C77B9B" stop-opacity=".35"/>
-      <stop offset="100%" stop-color="#C77B9B" stop-opacity="0"/>
+    <radialGradient id="light">
+      <stop offset="0" stop-color="#C77B9B" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
     </radialGradient>
-
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#C77B9B" stroke-opacity=".12"/>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#D99AB5" stroke-opacity=".1"/>
     </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
 
-  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="380" rx="20" fill="url(#background)"/>
+  <rect width="1200" height="380" rx="20" fill="url(#grid)"/>
 
-  <ellipse cx="970" cy="170" rx="280" ry="180" fill="url(#glow)">
-    <animate attributeName="opacity" values=".4;1;.4" dur="5s" repeatCount="indefinite"/>
+  <ellipse cx="950" cy="180" rx="330" ry="250" fill="url(#light)">
+    <animate attributeName="opacity" values=".45;1;.45" dur="5s" repeatCount="indefinite"/>
   </ellipse>
 
-  <g fill="none" stroke="#C77B9B" stroke-opacity=".35">
-    <circle cx="970" cy="175" r="110"/>
-    <circle cx="970" cy="175" r="145" stroke-dasharray="5 9">
-      <animateTransform attributeName="transform" type="rotate" from="0 970 175" to="360 970 175" dur="35s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="970" cy="175" r="75" stroke-dasharray="3 8"/>
+  <!-- Floating particles -->
+  <g fill="#E5B5C7">
+    <circle cx="720" cy="65" r="2"><animate attributeName="cy" values="65;35;65" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="90" r="3"><animate attributeName="cy" values="90;120;90" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="850" cy="300" r="2"><animate attributeName="cy" values="300;270;300" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="1140" cy="280" r="2"><animate attributeName="cy" values="280;245;280" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="670" cy="220" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="3s" repeatCount="indefinite"/></circle>
   </g>
 
-  <path d="M650 290 Q820 80 1030 145 T1190 70"
-        fill="none" stroke="url(#wine)" stroke-width="2"
-        stroke-dasharray="12 9">
-    <animate attributeName="stroke-dashoffset" values="0;-100" dur="8s" repeatCount="indefinite"/>
+  <!-- Orbit system -->
+  <g transform="translate(960 180)" fill="none" stroke="#C77B9B" stroke-opacity=".5">
+    <circle r="82" stroke-width="1.5"/>
+    <circle r="120" stroke-dasharray="4 9">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="155" stroke-dasharray="2 12">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="40s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="9" fill="#E5B5C7" stroke="none" filter="url(#glow)"/>
+  </g>
+
+  <g font-family="monospace" fill="#E5B5C7" opacity=".85">
+    <text x="880" y="82" font-size="19">&lt;/&gt;</text>
+    <text x="1090" y="155" font-size="20">{ }</text>
+    <text x="850" y="260" font-size="18">01</text>
+    <text x="1040" y="295" font-size="18">QA()</text>
+  </g>
+
+  <!-- Animated decorative path -->
+  <path d="M620 315 Q760 95 930 170 T1180 65"
+        fill="none" stroke="url(#rose)" stroke-width="2"
+        stroke-dasharray="10 9" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-120" dur="7s" repeatCount="indefinite"/>
   </path>
 
-  <text x="75" y="76" fill="#C77B9B"
-        font-family="Arial" font-size="14" letter-spacing="5">
-    DEVELOPER • CREATOR • PROBLEM SOLVER
+  <!-- Main text -->
+  <text x="75" y="78" fill="#D99AB5" font-family="Arial" font-size="14" letter-spacing="5">
+    DEVELOPER • TESTER • CREATOR
   </text>
 
-  <text x="72" y="163" fill="#F8F0F3"
-        font-family="Arial" font-size="66" font-weight="bold">
+  <text x="72" y="165" fill="#FFF5F8" font-family="Arial" font-size="64" font-weight="bold">
     GADE AMEESHA
   </text>
 
-  <rect x="76" y="185" width="350" height="3" rx="2" fill="url(#wine)">
-    <animate attributeName="width" values="180;350;180" dur="5s" repeatCount="indefinite"/>
+  <rect x="76" y="190" width="350" height="3" rx="2" fill="url(#rose)">
+    <animate attributeName="width" values="100;350;100" dur="5s" repeatCount="indefinite"/>
   </rect>
 
-  <text x="76" y="235" fill="#E5B5C7"
-        font-family="Arial" font-size="25">
+  <text x="76" y="244" fill="#E5B5C7" font-family="Arial" font-size="25">
     Software Developer | QA Engineer
   </text>
 
-  <text x="77" y="277" fill="#C77B9B"
-        font-family="Arial" font-size="14" letter-spacing="3">
+  <text x="77" y="286" fill="#C77B9B" font-family="Arial" font-size="14" letter-spacing="3">
     BUILD • TEST • LEARN • IMPROVE
   </text>
 
-  <g fill="#E5B5C7" opacity=".7" font-family="monospace" font-size="18">
-    <text x="840" y="112">&lt;/&gt;</text>
-    <text x="1090" y="250">{ }</text>
-    <text x="765" y="220">01</text>
-  </g>
-
-  <path d="M30 330 H1170" stroke="#701A3D"/>
-  <circle cx="75" cy="330" r="3" fill="#C77B9B"/>
+  <path d="M30 350 H1170" stroke="#701A3D" stroke-width="1"/>
+  <circle cx="76" cy="350" r="3" fill="#E5B5C7" filter="url(#glow)"/>
 </svg>
