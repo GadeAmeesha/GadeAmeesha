@@ -155,118 +155,53 @@ class Ameesha:
 
 <img src="assets/pulse.svg" width="100%" alt=""/>
 
+
 <!-- ============= PROJECTS ============= -->
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=3500&color=FF527E&center=true&vCenter=true&width=600&lines=04+%2F+PROJECT+SHOWCASE" alt="Projects"/>
-</div>
+<h2 align="center">✦ 04 / PROJECT SHOWCASE ✦</h2>
 
 <p align="center">
   <i>Turning ideas into practical engineering solutions.</i>
 </p>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<p align="center">
+  <a href="https://github.com/Moulya-k-m/MeshWeaver">
+    <img src="assets/meshweaver.svg" width="100%" alt="MeshWeaver"/>
+  </a>
+</p>
 
-<h3>01 — MeshWeaver</h3>
+<p align="center">
+  <a href="https://github.com/GadeAmeesha/Ecommerce-Website-Manual-Testing">
+    <img src="assets/ecommerce.svg" width="100%" alt="E-commerce Website Testing"/>
+  </a>
+</p>
 
-<img src="https://img.shields.io/badge/DISTRIBUTED_SYSTEMS-DC2856?style=flat-square"/>
+<p align="center">
+  <a href="https://github.com/GadeAmeesha/PasswordVault">
+    <img src="assets/passwordvault.svg" width="100%" alt="PasswordVault"/>
+  </a>
+</p>
 
-**Python · Asyncio · UDP**
+<p align="center">
+  <a href="https://github.com/GadeAmeesha/Manual-Testing-Login-Page">
+    <img src="assets/login-testing.svg" width="100%" alt="Login Page Testing"/>
+  </a>
+</p>
 
-- P2P asynchronous task broker.
-- Distributed task processing.
-- Peer-to-peer communication.
-- Collaborative team project in progress.
+<p align="center">
+  <a href="https://github.com/GadeAmeesha/Enterprise-Sales-Analytics">
+    <img src="assets/sales-analytics.svg" width="100%" alt="Enterprise Sales Analytics"/>
+  </a>
+</p>
 
-<a href="https://github.com/Moulya-k-m/MeshWeaver">
-<img src="https://img.shields.io/badge/EXPLORE_PROJECT-8C1944?style=for-the-badge&logo=github"/>
-</a>
-
-</td>
-<td width="50%" valign="top">
-
-<h3>02 — E-commerce Website Testing</h3>
-
-<img src="https://img.shields.io/badge/QUALITY_ASSURANCE-DC2856?style=flat-square"/>
-
-**Manual Testing · Test Documentation**
-
-- Designed 60 manual test cases.
-- Covered end-to-end shopping workflows.
-- Prepared test data.
-- Documented execution results.
-
-<a href="https://github.com/GadeAmeesha/Ecommerce-Website-Manual-Testing">
-<img src="https://img.shields.io/badge/EXPLORE_PROJECT-8C1944?style=for-the-badge&logo=github"/>
-</a>
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-<h3>03 — PasswordVault</h3>
-
-<img src="https://img.shields.io/badge/SOFTWARE_DEVELOPMENT-DC2856?style=flat-square"/>
-
-**Python · Flask · SQLite**
-
-- Password management application.
-- PIN-based authentication.
-- TOTP-based two-factor authentication.
-- Encrypted password storage.
-
-<a href="https://github.com/GadeAmeesha/PasswordVault">
-<img src="https://img.shields.io/badge/EXPLORE_PROJECT-8C1944?style=for-the-badge&logo=github"/>
-</a>
-
-</td>
-<td width="50%" valign="top">
-
-<h3>04 — Login Page Testing</h3>
-
-<img src="https://img.shields.io/badge/FUNCTIONAL_TESTING-DC2856?style=flat-square"/>
-
-**Manual QA · Validation**
-
-- Positive and negative test scenarios.
-- Input validation testing.
-- Boundary value testing.
-- Structured test documentation.
-
-<a href="https://github.com/GadeAmeesha/Manual-Testing-Login-Page">
-<img src="https://img.shields.io/badge/EXPLORE_PROJECT-8C1944?style=for-the-badge&logo=github"/>
-</a>
-
-</td>
-</tr>
-
-<tr>
-<td colspan="2" valign="top">
-
-<h3>05 — Enterprise Sales Analytics</h3>
-
-<img src="https://img.shields.io/badge/DATA_ANALYTICS-DC2856?style=flat-square"/>
-
-**SQL · Excel · Business Intelligence**
-
-- Explored and analyzed enterprise sales data.
-- Identified business trends.
-- Developed Excel dashboards.
-- Presented data-driven insights.
-
-<a href="https://github.com/GadeAmeesha/Enterprise-Sales-Analytics">
-<img src="https://img.shields.io/badge/EXPLORE_PROJECT-8C1944?style=for-the-badge&logo=github"/>
-</a>
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/GadeAmeesha?tab=repositories">
+    <img src="https://img.shields.io/badge/EXPLORE_ALL_PROJECTS-8C1944?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
 <img src="assets/pulse.svg" width="100%" alt=""/>
+
 
 <!-- ============= CURRENT FOCUS ============= -->
 
