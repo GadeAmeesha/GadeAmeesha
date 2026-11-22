@@ -354,20 +354,29 @@ currently_working_on:
 
 </div>
 
+
 <!-- ============= CONTRIBUTION SNAKE ============= -->
 
-<!--
-Enable this section after the snake workflow runs successfully.
+<h3 align="center">🐍 Contribution Journey</h3>
 
-<h3 align="center">Contribution Snake</h3>
+<p align="center">
+  <i>Every contribution is a step towards better engineering.</i>
+</p>
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/GadeAmeesha/GadeAmeesha/output/github-snake.svg" width="100%" alt="Contribution snake animation"/>
-</div>
-
--->
-
-<img src="assets/pulse.svg" width="100%" alt=""/>
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://raw.githubusercontent.com/GadeAmeesha/GadeAmeesha/output/github-snake-dark.svg"/>
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://raw.githubusercontent.com/GadeAmeesha/GadeAmeesha/output/github-snake.svg"/>
+    <img
+      alt="GitHub Contribution Snake"
+      src="https://raw.githubusercontent.com/GadeAmeesha/GadeAmeesha/output/github-snake.svg"
+      width="100%"/>
+  </picture>
+</p>
 
 <!-- ============= EDUCATION ============= -->
 
