@@ -1,235 +1,469 @@
 
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="1200" height="420"
-     viewBox="0 0 1200 420">
+     width="1200" height="450"
+     viewBox="0 0 1200 450">
+
+  <title>Gade Ameesha — Engineering Portfolio</title>
 
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#080509"/>
-      <stop offset=".48" stop-color="#350F22"/>
-      <stop offset="1" stop-color="#080509"/>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080A12"/>
+      <stop offset="50%" stop-color="#310B20"/>
+      <stop offset="100%" stop-color="#080A12"/>
     </linearGradient>
 
-    <linearGradient id="rose">
-      <stop offset="0" stop-color="#701A3D"/>
-      <stop offset=".5" stop-color="#F0B9D0"/>
-      <stop offset="1" stop-color="#8B3158"/>
+    <linearGradient id="neon">
+      <stop offset="0%" stop-color="#FF174D"/>
+      <stop offset="50%" stop-color="#FFD5E3"/>
+      <stop offset="100%" stop-color="#FF527E"/>
+
+      <animateTransform
+        attributeName="gradientTransform"
+        type="translate"
+        values="-1 0;1 0;-1 0"
+        dur="6s"
+        repeatCount="indefinite"/>
     </linearGradient>
 
-    <radialGradient id="light">
-      <stop offset="0" stop-color="#C77B9B" stop-opacity=".35"/>
-      <stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+    <linearGradient id="sweep">
+      <stop offset="0%" stop-color="#FF315D" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FF315D" stop-opacity=".15"/>
+      <stop offset="100%" stop-color="#FF315D" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="aura">
+      <stop offset="0%" stop-color="#FF315D" stop-opacity=".22"/>
+      <stop offset="100%" stop-color="#FF315D" stop-opacity="0"/>
     </radialGradient>
 
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none"
-            stroke="#D99AB5" stroke-opacity=".09"/>
+    <pattern id="grid" width="40" height="40"
+             patternUnits="userSpaceOnUse">
+
+      <path d="M40 0H0V40"
+            fill="none"
+            stroke="#FF527E"
+            stroke-opacity=".09"/>
+
     </pattern>
 
     <filter id="glow">
+
       <feGaussianBlur stdDeviation="4" result="blur"/>
+
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
+
     </filter>
+
+    <clipPath id="clip">
+      <rect width="1200" height="450" rx="22"/>
+    </clipPath>
+
   </defs>
 
-  <!-- Background -->
+  <g clip-path="url(#clip)">
 
-  <rect width="1200" height="420" rx="22" fill="url(#background)"/>
-  <rect width="1200" height="420" rx="22" fill="url(#grid)"/>
+    <!-- ANIMATED BACKGROUND -->
 
-  <ellipse cx="950" cy="210" rx="350" ry="300" fill="url(#light)">
-    <animate attributeName="opacity"
-             values=".35;.8;.35"
-             dur="6s"
-             repeatCount="indefinite"/>
-  </ellipse>
+    <rect width="1200" height="450" fill="url(#bg)"/>
 
-  <!-- Animated orbits -->
+    <rect width="1200" height="450" fill="url(#grid)"/>
 
-  <g transform="translate(955 210)"
-     fill="none" stroke="#C77B9B" stroke-opacity=".2">
+    <ellipse cx="600" cy="180" rx="480" ry="260"
+             fill="url(#aura)">
 
-    <circle r="172" stroke-dasharray="3 11">
-      <animateTransform attributeName="transform"
-                        type="rotate"
-                        from="0 0 0"
-                        to="360 0 0"
-                        dur="35s"
-                        repeatCount="indefinite"/>
-    </circle>
-
-    <circle r="190" stroke-dasharray="2 14">
-      <animateTransform attributeName="transform"
-                        type="rotate"
-                        from="360 0 0"
-                        to="0 0 0"
-                        dur="45s"
-                        repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <!-- Main heading -->
-
-  <text x="50" y="58"
-        font-family="Arial,sans-serif"
-        font-size="15"
-        letter-spacing="4"
-        fill="#E5B5C7">
-    DEVELOPER / QA ENGINEER
-  </text>
-
-  <text x="46" y="142"
-        font-family="Arial,sans-serif"
-        font-size="59"
-        font-weight="bold"
-        fill="#FFF5F8">
-    GADE AMEESHA
-  </text>
-
-  <rect x="51" y="164" width="420" height="3"
-        rx="2" fill="url(#rose)">
-    <animate attributeName="width"
-             values="120;420;120"
-             dur="6s"
-             repeatCount="indefinite"/>
-  </rect>
-
-  <text x="51" y="208"
-        fill="#E5B5C7"
-        font-family="Arial,sans-serif"
-        font-size="24">
-    Software Developer | QA Engineer
-  </text>
-
-  <text x="51" y="246"
-        font-family="Arial,sans-serif"
-        font-size="15"
-        letter-spacing="2"
-        fill="#C77B9B">
-    6 MONTHS OF INDUSTRY EXPERIENCE
-  </text>
-
-  <!-- Technology badges -->
-
-  <g font-family="Arial,sans-serif"
-     font-size="15"
-     text-anchor="middle"
-     fill="#FFF5F8">
-
-    <rect x="51" y="277" width="116" height="36"
-          rx="7" fill="#701A3D" stroke="#A64D72"/>
-    <text x="109" y="300">PYTHON</text>
-
-    <rect x="180" y="277" width="116" height="36"
-          rx="7" fill="#701A3D" stroke="#A64D72"/>
-    <text x="238" y="300">JAVA</text>
-
-    <rect x="309" y="277" width="116" height="36"
-          rx="7" fill="#701A3D" stroke="#A64D72"/>
-    <text x="367" y="300">C#</text>
-
-    <rect x="438" y="277" width="116" height="36"
-          rx="7" fill="#701A3D" stroke="#A64D72"/>
-    <text x="496" y="300">SQL</text>
-
-  </g>
-
-  <!-- Developer terminal -->
-
-  <rect x="708" y="75" width="437" height="261"
-        rx="15" fill="#10070C"
-        stroke="#8C3158" stroke-width="1.5"/>
-
-  <path d="M708 115H1145"
-        stroke="#8C3158" stroke-width="1"/>
-
-  <circle cx="732" cy="95" r="6" fill="#E5B5C7"/>
-  <circle cx="752" cy="95" r="6" fill="#C77B9B"/>
-  <circle cx="772" cy="95" r="6" fill="#701A3D"/>
-
-  <text x="925" y="100"
-        text-anchor="middle"
-        font-family="monospace"
-        font-size="13"
-        fill="#C77B9B">
-    developer_terminal
-  </text>
-
-  <g font-family="monospace" font-size="18">
-
-    <text x="738" y="151" fill="#C77B9B">
-      $ whoami
-    </text>
-
-    <text x="738" y="181" fill="#FFFFFF">
-      software_developer
-    </text>
-
-    <text x="738" y="210" fill="#FFFFFF">
-      qa_engineer
-    </text>
-
-    <text x="738" y="249" fill="#C77B9B">
-      $ mission
-    </text>
-
-    <text x="738" y="279" fill="#E5B5C7">
-      build. test. innovate.
-    </text>
-
-    <rect x="738" y="296" width="11" height="19"
-          fill="#E5B5C7">
       <animate attributeName="opacity"
-               values="1;0;1"
-               dur="1s"
+               values=".3;1;.3"
+               dur="6s"
                repeatCount="indefinite"/>
+
+    </ellipse>
+
+    <!-- MOVING LIGHT SCANNER -->
+
+    <rect x="-350" y="0"
+          width="350" height="450"
+          fill="url(#sweep)">
+
+      <animate attributeName="x"
+               values="-350;1200"
+               dur="9s"
+               repeatCount="indefinite"/>
+
     </rect>
 
-  </g>
+    <!-- ANIMATED NEON BORDER -->
 
-  <!-- Floating particles -->
+    <rect x="14" y="14"
+          width="1172" height="422"
+          rx="16"
+          fill="none"
+          stroke="#FF315D"
+          stroke-width="1.5"
+          opacity=".6"/>
 
-  <g fill="#E5B5C7">
+    <rect x="14" y="14"
+          width="1172" height="422"
+          rx="16"
+          fill="none"
+          stroke="#FF91B2"
+          stroke-width="2"
+          stroke-dasharray="100 900"
+          filter="url(#glow)">
 
-    <circle cx="650" cy="85" r="2.5">
-      <animate attributeName="cy"
-               values="85;55;85"
+      <animate attributeName="stroke-dashoffset"
+               values="1000;0"
+               dur="6s"
+               repeatCount="indefinite"/>
+
+    </rect>
+
+    <!-- FUTURISTIC ORBIT SYSTEM -->
+
+    <g transform="translate(600 185)"
+       fill="none">
+
+      <ellipse rx="455" ry="128"
+               stroke="#FF527E"
+               stroke-opacity=".18">
+
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="0"
+          to="360"
+          dur="42s"
+          repeatCount="indefinite"/>
+
+      </ellipse>
+
+      <ellipse rx="445" ry="115"
+               stroke="#FF91B2"
+               stroke-opacity=".16"
+               stroke-dasharray="5 14">
+
+        <animateTransform
+          attributeName="transform"
+          type="rotate"
+          from="360"
+          to="0"
+          dur="35s"
+          repeatCount="indefinite"/>
+
+      </ellipse>
+
+      <ellipse rx="410" ry="140"
+               stroke="#FF315D"
+               stroke-opacity=".15"/>
+
+    </g>
+
+    <!-- FLOATING CODE SYMBOLS -->
+
+    <g font-family="monospace"
+       font-size="22"
+       fill="#FF527E"
+       opacity=".8">
+
+      <text x="75" y="110">
+        &lt;/&gt;
+
+        <animate attributeName="y"
+                 values="110;85;110"
+                 dur="5s"
+                 repeatCount="indefinite"/>
+      </text>
+
+      <text x="1060" y="105">
+        { }
+
+        <animate attributeName="y"
+                 values="105;140;105"
+                 dur="6s"
+                 repeatCount="indefinite"/>
+      </text>
+
+      <text x="95" y="300">
+        QA()
+
+        <animate attributeName="opacity"
+                 values=".2;1;.2"
+                 dur="4s"
+                 repeatCount="indefinite"/>
+      </text>
+
+      <text x="1050" y="305">
+        [ ]
+
+        <animate attributeName="y"
+                 values="305;280;305"
+                 dur="5s"
+                 repeatCount="indefinite"/>
+      </text>
+
+      <text x="160" y="190" font-size="15">
+        0101
+
+        <animate attributeName="opacity"
+                 values=".15;.8;.15"
+                 dur="3s"
+                 repeatCount="indefinite"/>
+      </text>
+
+      <text x="980" y="200" font-size="15">
+        1010
+
+        <animate attributeName="opacity"
+                 values=".8;.15;.8"
+                 dur="4s"
+                 repeatCount="indefinite"/>
+      </text>
+
+    </g>
+
+    <!-- MOVING PARTICLES -->
+
+    <g fill="#FF91B2">
+
+      <circle cx="220" cy="65" r="3">
+        <animate attributeName="cy"
+                 values="65;35;65"
+                 dur="5s"
+                 repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="970" cy="70" r="3">
+        <animate attributeName="cy"
+                 values="70;115;70"
+                 dur="6s"
+                 repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="180" cy="345" r="2">
+        <animate attributeName="cx"
+                 values="180;310;180"
+                 dur="8s"
+                 repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="1050" cy="350" r="3">
+        <animate attributeName="cx"
+                 values="1050;900;1050"
+                 dur="7s"
+                 repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="350" cy="45" r="2">
+        <animate attributeName="opacity"
+                 values="0;1;0"
+                 dur="3s"
+                 repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="850" cy="390" r="2">
+        <animate attributeName="opacity"
+                 values="1;0;1"
+                 dur="4s"
+                 repeatCount="indefinite"/>
+      </circle>
+
+    </g>
+
+    <!-- HEADER -->
+
+    <text x="600" y="67"
+          text-anchor="middle"
+          font-family="monospace"
+          font-size="16"
+          letter-spacing="6"
+          fill="#FF91B2">
+
+      ENGINEERING THE FUTURE
+
+    </text>
+
+    <!-- MAIN NAME -->
+
+    <text x="600" y="165"
+          text-anchor="middle"
+          font-family="Arial,sans-serif"
+          font-weight="bold"
+          font-size="78"
+          letter-spacing="3"
+          fill="#FFF5F8"
+          filter="url(#glow)">
+
+      GADE AMEESHA
+
+      <animate attributeName="opacity"
+               values=".85;1;.85"
                dur="5s"
                repeatCount="indefinite"/>
+
+    </text>
+
+    <!-- ANIMATED UNDERLINE -->
+
+    <rect x="345" y="188"
+          width="510" height="4"
+          rx="2"
+          fill="url(#neon)"
+          filter="url(#glow)">
+
+      <animate attributeName="width"
+               values="150;510;150"
+               dur="6s"
+               repeatCount="indefinite"/>
+
+      <animate attributeName="x"
+               values="525;345;525"
+               dur="6s"
+               repeatCount="indefinite"/>
+
+    </rect>
+
+    <!-- PROFESSIONAL TITLE -->
+
+    <text x="600" y="235"
+          text-anchor="middle"
+          font-family="Arial,sans-serif"
+          font-size="29"
+          fill="#FFD5E3">
+
+      Software Developer × QA Engineer
+
+    </text>
+
+    <text x="600" y="271"
+          text-anchor="middle"
+          font-family="monospace"
+          font-size="15"
+          letter-spacing="3"
+          fill="#FF91B2">
+
+      DEVELOPMENT • QUALITY • AUTOMATION
+
+    </text>
+
+    <!-- TECHNOLOGY LABELS -->
+
+    <g font-family="monospace"
+       font-size="17"
+       text-anchor="middle"
+       fill="#FFD5E3">
+
+      <g>
+        <rect x="188" y="312"
+              width="150" height="42" rx="8"
+              fill="#290D21" stroke="#FF527E"/>
+
+        <text x="263" y="339">PYTHON</text>
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;0 -5;0 0"
+          dur="4s"
+          repeatCount="indefinite"/>
+      </g>
+
+      <g>
+        <rect x="356" y="312"
+              width="150" height="42" rx="8"
+              fill="#290D21" stroke="#FF527E"/>
+
+        <text x="431" y="339">JAVA</text>
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;0 -5;0 0"
+          begin=".5s"
+          dur="4s"
+          repeatCount="indefinite"/>
+      </g>
+
+      <g>
+        <rect x="524" y="312"
+              width="150" height="42" rx="8"
+              fill="#290D21" stroke="#FF527E"/>
+
+        <text x="599" y="339">C#</text>
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;0 -5;0 0"
+          begin="1s"
+          dur="4s"
+          repeatCount="indefinite"/>
+      </g>
+
+      <g>
+        <rect x="692" y="312"
+              width="150" height="42" rx="8"
+              fill="#290D21" stroke="#FF527E"/>
+
+        <text x="767" y="339">SQL</text>
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;0 -5;0 0"
+          begin="1.5s"
+          dur="4s"
+          repeatCount="indefinite"/>
+      </g>
+
+      <g>
+        <rect x="860" y="312"
+              width="150" height="42" rx="8"
+              fill="#290D21" stroke="#FF527E"/>
+
+        <text x="935" y="339">JAVASCRIPT</text>
+
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="0 0;0 -5;0 0"
+          begin="2s"
+          dur="4s"
+          repeatCount="indefinite"/>
+      </g>
+
+    </g>
+
+    <!-- FOOTER LINE -->
+
+    <path d="M70 385H1130"
+          stroke="#FF315D"
+          stroke-opacity=".35"/>
+
+    <circle cy="385" r="4"
+            fill="#FF91B2"
+            filter="url(#glow)">
+
+      <animate attributeName="cx"
+               values="70;1130;70"
+               dur="8s"
+               repeatCount="indefinite"/>
+
     </circle>
 
-    <circle cx="660" cy="290" r="2.5">
-      <animate attributeName="cy"
-               values="290;260;290"
-               dur="4s"
-               repeatCount="indefinite"/>
-    </circle>
+    <text x="600" y="414"
+          text-anchor="middle"
+          font-family="monospace"
+          font-size="16"
+          letter-spacing="7"
+          fill="#FF91B2">
 
-    <circle cx="1100" cy="45" r="2.5">
-      <animate attributeName="opacity"
-               values=".2;1;.2"
-               dur="3s"
-               repeatCount="indefinite"/>
-    </circle>
+      CODE • TEST • EVOLVE
+
+    </text>
 
   </g>
-
-  <!-- Footer -->
-
-  <path d="M38 368 H1162"
-        stroke="#701A3D"
-        stroke-width="1"/>
-
-  <text x="600" y="398"
-        font-family="Arial,sans-serif"
-        font-size="15"
-        letter-spacing="5"
-        text-anchor="middle"
-        fill="#E5B5C7">
-    BUILD • TEST • INNOVATE • IMPROVE
-  </text>
 
 </svg>
