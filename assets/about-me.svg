@@ -1,0 +1,167 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="435"
+     viewBox="0 0 1200 435">
+
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#090B14"/>
+      <stop offset=".5" stop-color="#260D20"/>
+      <stop offset="1" stop-color="#090B14"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="435" rx="20"
+        fill="url(#bg)"/>
+
+  <rect x="12" y="12" width="1176" height="411"
+        rx="15" fill="none"
+        stroke="#FF527E" stroke-opacity=".6"/>
+
+  <rect x="12" y="12" width="1176" height="411"
+        rx="15" fill="none"
+        stroke="#FF91B2" stroke-width="2"
+        stroke-dasharray="100 1300"
+        filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset"
+             values="1400;0" dur="7s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Terminal header -->
+
+  <rect x="13" y="13" width="1174" height="55"
+        rx="14" fill="#310E25"/>
+
+  <circle cx="42" cy="40" r="7" fill="#FF527E"/>
+  <circle cx="65" cy="40" r="7" fill="#D68CA8"/>
+  <circle cx="88" cy="40" r="7" fill="#8C1944"/>
+
+  <text x="600" y="47" text-anchor="middle"
+        font-family="monospace" font-size="18"
+        fill="#E5B5C7">developer_profile.exe</text>
+
+  <!-- Left section -->
+
+  <g font-family="monospace">
+
+    <text x="45" y="112" font-size="19"
+          fill="#FF527E">$ whoami</text>
+
+    <text x="45" y="157" font-size="34"
+          font-weight="bold" fill="#FFF5F8">
+      Gade Ameesha
+    </text>
+
+    <text x="45" y="190" font-size="19"
+          fill="#E5B5C7">
+      Software Developer | QA Engineer
+    </text>
+
+    <text x="45" y="248" font-size="19"
+          fill="#FF527E">$ experience</text>
+
+    <text x="45" y="279" font-size="21"
+          fill="#FFF5F8">
+      6 Months @ MSC Technology
+    </text>
+
+    <text x="45" y="334" font-size="19"
+          fill="#FF527E">$ education</text>
+
+    <text x="45" y="365" font-size="21"
+          fill="#FFF5F8">
+      B.Tech CSE | 2026
+    </text>
+
+  </g>
+
+  <!-- Vertical separator -->
+
+  <path d="M608 95V390"
+        stroke="#701A3D" stroke-width="2"/>
+
+  <circle cx="608" cy="95" r="4"
+          fill="#FF91B2" filter="url(#glow)">
+    <animate attributeName="cy"
+             values="95;390;95"
+             dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Right section -->
+
+  <g font-family="monospace">
+
+    <text x="645" y="112" font-size="20"
+          letter-spacing="2" fill="#FF527E">
+      CURRENT FOCUS
+    </text>
+
+    <g>
+      <rect x="645" y="140" width="510" height="40"
+            rx="7" fill="#291225" stroke="#58203B"/>
+      <circle cx="670" cy="160" r="5" fill="#FF527E">
+        <animate attributeName="opacity"
+                 values=".3;1;.3" dur="3s"
+                 repeatCount="indefinite"/>
+      </circle>
+      <text x="692" y="167" font-size="19"
+            fill="#FFD5E3">Software Development</text>
+    </g>
+
+    <g>
+      <rect x="645" y="193" width="510" height="40"
+            rx="7" fill="#291225" stroke="#58203B"/>
+      <circle cx="670" cy="213" r="5" fill="#FF527E">
+        <animate attributeName="opacity"
+                 values=".3;1;.3" dur="3s"
+                 begin=".5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="692" y="220" font-size="19"
+            fill="#FFD5E3">Quality Assurance</text>
+    </g>
+
+    <g>
+      <rect x="645" y="246" width="510" height="40"
+            rx="7" fill="#291225" stroke="#58203B"/>
+      <circle cx="670" cy="266" r="5" fill="#FF527E">
+        <animate attributeName="opacity"
+                 values=".3;1;.3" dur="3s"
+                 begin="1s" repeatCount="indefinite"/>
+      </circle>
+      <text x="692" y="273" font-size="19"
+            fill="#FFD5E3">API Testing</text>
+    </g>
+
+    <g>
+      <rect x="645" y="299" width="510" height="40"
+            rx="7" fill="#291225" stroke="#58203B"/>
+      <circle cx="670" cy="319" r="5" fill="#FF527E">
+        <animate attributeName="opacity"
+                 values=".3;1;.3" dur="3s"
+                 begin="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="692" y="326" font-size="19"
+            fill="#FFD5E3">Test Automation</text>
+    </g>
+
+    <text x="645" y="385" font-size="17"
+          fill="#FF91B2">SYSTEM STATUS: LEARNING</text>
+
+    <rect x="895" y="369" width="10" height="20"
+          fill="#FF91B2">
+      <animate attributeName="opacity"
+               values="1;0;1" dur="1s"
+               repeatCount="indefinite"/>
+    </rect>
+
+  </g>
+</svg>
