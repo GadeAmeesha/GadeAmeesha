@@ -1,0 +1,139 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="65"
+     viewBox="0 0 1200 65">
+
+  <defs>
+
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF315D" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#DC2856"/>
+      <stop offset="50%" stop-color="#FFD5E3"/>
+      <stop offset="75%" stop-color="#FF315D"/>
+      <stop offset="100%" stop-color="#FF315D" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <radialGradient id="particle">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#FF91B2"/>
+      <stop offset="100%" stop-color="#FF315D" stop-opacity="0"/>
+    </radialGradient>
+
+  </defs>
+
+  <!-- Base waveform -->
+
+  <path
+    d="M20 32 H475
+       L500 24
+       L520 40
+       L545 8
+       L570 57
+       L595 17
+       L620 44
+       L645 24
+       L670 32
+       H1180"
+    fill="none"
+    stroke="url(#neon)"
+    stroke-width="1.5"
+    opacity=".7"/>
+
+  <!-- Moving neon pulse -->
+
+  <path
+    d="M20 32 H475
+       L500 24
+       L520 40
+       L545 8
+       L570 57
+       L595 17
+       L620 44
+       L645 24
+       L670 32
+       H1180"
+    fill="none"
+    stroke="#FF527E"
+    stroke-width="2.5"
+    stroke-dasharray="100 1400"
+    stroke-linecap="round"
+    filter="url(#glow)">
+
+    <animate
+      attributeName="stroke-dashoffset"
+      values="1500;0"
+      dur="5s"
+      repeatCount="indefinite"/>
+
+  </path>
+
+  <!-- Moving light particle -->
+
+  <circle r="6" fill="url(#particle)">
+
+    <animateMotion
+      dur="5s"
+      repeatCount="indefinite"
+      path="M20 32 H475
+            L500 24
+            L520 40
+            L545 8
+            L570 57
+            L595 17
+            L620 44
+            L645 24
+            L670 32
+            H1180"/>
+
+  </circle>
+
+  <!-- Secondary moving particle -->
+
+  <circle r="3" fill="#FFD5E3"
+          filter="url(#glow)">
+
+    <animateMotion
+      begin="2.5s"
+      dur="5s"
+      repeatCount="indefinite"
+      path="M20 32 H475
+            L500 24
+            L520 40
+            L545 8
+            L570 57
+            L595 17
+            L620 44
+            L645 24
+            L670 32
+            H1180"/>
+
+  </circle>
+
+  <!-- Breathing center glow -->
+
+  <circle cx="570" cy="32" r="18"
+          fill="url(#particle)">
+
+    <animate
+      attributeName="r"
+      values="8;22;8"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+    <animate
+      attributeName="opacity"
+      values=".15;.6;.15"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+  </circle>
+
+</svg>
