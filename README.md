@@ -20,57 +20,25 @@
 
 <br/>
 
-<!-- ============= ABOUT ME ============= -->
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=3500&color=FF527E&center=true&vCenter=true&width=600&lines=01+%2F+WHO+AM+I" alt="About me"/>
-</div>
-
-```python
 class Ameesha:
+    name = "Gade Ameesha"
+    roles = ["Software Developer", "QA Engineer"]
+    education = "B.Tech CSE | 2026"
+    experience = "6 Months @ MSC Technology"
 
-    def __init__(self):
-        self.name = "Gade Ameesha"
-        self.role = ["Software Developer", "QA Engineer"]
-        self.education = "B.Tech CSE - 2026"
-        self.location = "India"
-        self.experience = "6 Months - MSC Technology"
+    languages = ["Python", "Java", "C#", "SQL", "JavaScript"]
 
-    def skills(self):
-        return ["Python", "Java", "C#", "SQL", "JavaScript"]
+    interests = [
+        "Software Development",
+        "Quality Engineering",
+        "Test Automation"
+    ]
 
-    def interests(self):
-        return [
-            "Software Development",
-            "Quality Assurance",
-            "Backend Development",
-            "Test Automation"
-        ]
+    currently_learning = ["Playwright", "Selenium", "REST APIs"]
 
-    def mission(self):
-        return "Build with purpose. Test with precision."
-```
+    motto = "Build. Test. Innovate."
 
-<p align="center">
-Computer Science Engineering graduate with six months of internship
-experience in Software Development and Quality Assurance.
-</p>
-
-<p align="center">
-Passionate about developing reliable applications, identifying defects,
-exploring automation, and solving real-world problems through technology.
-</p>
-
-<div align="center">
-
-  <img src="https://img.shields.io/badge/Developer-DC2856?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Quality%20Engineer-8C1944?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Problem%20Solver-DC2856?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Continuous%20Learner-8C1944?style=flat-square"/>
-
-</div>
-
-<img src="assets/pulse.svg" width="100%" alt=""/>
 
 <!-- ============= TECH STACK ============= -->
 
