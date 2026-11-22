@@ -1,50 +1,50 @@
 
-<!-- ============= ANIMATED HERO ============= -->
+<!-- ================= HERO ================= -->
 
 <div align="center">
-  <img src="assets/ameesha-hero.svg" width="100%" alt="Gade Ameesha — Software Developer and QA Engineer"/>
-  
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF527E&center=true&vCenter=true&width=750&lines=Building+Software.+Engineering+Quality.;Software+Developer+%7C+QA+Engineer;Python+%7C+Java+%7C+C%23+%7C+SQL;Exploring+API+and+Test+Automation;Learn.+Build.+Test.+Innovate." alt="Animated introduction"/>
 
-  <br/>
+<img src="assets/ameesha-hero.svg" width="100%" alt="Gade Ameesha"/>
 
-  <a href="https://www.linkedin.com/in/gade-ameesha/">
-    <img src="https://img.shields.io/badge/LINKEDIN-DC2856?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF527E&center=true&vCenter=true&width=750&lines=Software+Developer+%7C+QA+Engineer;Building+Software.+Engineering+Quality.;Python+%7C+Java+%7C+C%23+%7C+SQL;Learn.+Build.+Test.+Innovate." alt="Animated introduction"/>
 
-  <img src="https://komarev.com/ghpvc/?username=GadeAmeesha&label=PROFILE+VIEWS&color=dc2856&style=for-the-badge"/>
+<br/>
 
-  <img src="https://img.shields.io/badge/OPEN_TO_WORK-191323?style=for-the-badge"/>
+<a href="https://www.linkedin.com/in/gade-ameesha/"><img src="https://img.shields.io/badge/LINKEDIN-DC2856?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<img src="https://komarev.com/ghpvc/?username=GadeAmeesha&label=PROFILE+VIEWS&color=dc2856&style=for-the-badge"/>
+<img src="https://img.shields.io/badge/OPEN_TO_WORK-191323?style=for-the-badge"/>
 
 </div>
 
 <br/>
 
+<!-- ================= ABOUT ME ================= -->
 
-class Ameesha:
-    name = "Gade Ameesha"
-    roles = ["Software Developer", "QA Engineer"]
-    education = "B.Tech CSE | 2026"
-    experience = "6 Months @ MSC Technology"
+<h2 align="center">✦ 01 / ABOUT ME ✦</h2>
 
-    languages = ["Python", "Java", "C#", "SQL", "JavaScript"]
+<p align="center">
+  <img src="./assets/about-me.svg" width="100%" alt="Gade Ameesha — Developer Profile"/>
+</p>
 
-    interests = [
-        "Software Development",
-        "Quality Engineering",
-        "Test Automation"
-    ]
+<p align="center">
+  Computer Science Engineering graduate with six months of internship experience in Software Development and Quality Assurance at MSC Technology.
+</p>
 
-    currently_learning = ["Playwright", "Selenium", "REST APIs"]
+<p align="center">
+  Passionate about building reliable applications, identifying defects, exploring automation and solving real-world problems through technology.
+</p>
 
-    motto = "Build. Test. Innovate."
+<p align="center">
+  <img src="https://img.shields.io/badge/DEVELOPER-DC2856?style=flat-square"/>
+  <img src="https://img.shields.io/badge/QA_ENGINEER-8C1944?style=flat-square"/>
+  <img src="https://img.shields.io/badge/PROBLEM_SOLVER-DC2856?style=flat-square"/>
+  <img src="https://img.shields.io/badge/CONTINUOUS_LEARNER-8C1944?style=flat-square"/>
+</p>
 
+<img src="assets/pulse.svg" width="100%" alt=""/>
 
-<!-- ============= TECH STACK ============= -->
+<!-- ================= TECH STACK ================= -->
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=3500&color=FF527E&center=true&vCenter=true&width=600&lines=02+%2F+TECH+ARSENAL" alt="Technical skills"/>
-</div>
+<h2 align="center">✦ 02 / TECH ARSENAL ✦</h2>
 
 <h3 align="center">Programming Languages</h3>
 
@@ -71,17 +71,13 @@ class Ameesha:
 
 <h3 align="center">Quality Assurance</h3>
 
-<div align="center">
-
 | Testing Knowledge | Testing Processes |
-|:---:|:---:|
+|:---|:---|
 | Manual Testing | SDLC & STLC |
 | Functional Testing | Test Scenario Design |
 | Regression Testing | Test Case Execution |
 | Smoke & Sanity Testing | Defect Reporting |
 | Black Box Testing | Test Documentation |
-
-</div>
 
 <h3 align="center">API & Automation — Learning and Practice</h3>
 
@@ -119,11 +115,9 @@ class Ameesha:
 
 <img src="assets/pulse.svg" width="100%" alt=""/>
 
-<!-- ============= EXPERIENCE ============= -->
+<!-- ================= EXPERIENCE ================= -->
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=3500&color=FF527E&center=true&vCenter=true&width=600&lines=03+%2F+MY+JOURNEY" alt="Professional experience"/>
-</div>
+<h2 align="center">✦ 03 / MY JOURNEY ✦</h2>
 
 ### MSC Technology (India) Pvt. Ltd.
 
@@ -155,8 +149,7 @@ class Ameesha:
 
 <img src="assets/pulse.svg" width="100%" alt=""/>
 
-
-<!-- ============= PROJECTS ============= -->
+<!-- ================= PROJECTS ================= -->
 
 <h2 align="center">✦ 04 / PROJECT SHOWCASE ✦</h2>
 
@@ -195,51 +188,87 @@ class Ameesha:
 </p>
 
 <p align="center">
-  <a href="https://github.com/GadeAmeesha?tab=repositories">
-    <img src="https://img.shields.io/badge/EXPLORE_ALL_PROJECTS-8C1944?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
+  <a href="https://github.com/GadeAmeesha?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_ALL_PROJECTS-8C1944?style=for-the-badge&logo=github&logoColor=white"/></a>
 </p>
 
 <img src="assets/pulse.svg" width="100%" alt=""/>
 
+<!-- ================= CURRENT FOCUS ================= -->
 
-<!-- ============= CURRENT FOCUS ============= -->
+<h2 align="center">✦ 05 / CURRENT FOCUS ✦</h2>
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=3500&color=FF527E&center=true&vCenter=true&width=600&lines=05+%2F+CURRENT+FOCUS" alt="Current focus"/>
-</div>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-```yaml
-currently_working_on:
+<h3>Software Development</h3>
 
-  development:
-    - Python Development
-    - Distributed Systems
-    - Asynchronous Programming
+<ul>
+  <li>Python Development</li>
+  <li>Distributed Systems</li>
+  <li>Asynchronous Programming</li>
+</ul>
 
-  quality_engineering:
-    - Manual Testing
-    - API Testing with Postman
-    - Playwright with C#
-    - Selenium with Java and Python
+<img src="https://skillicons.dev/icons?i=python,flask,git&theme=dark"/>
 
-  learning:
-    - Advanced JavaScript
-    - Backend Development
-    - Automation Frameworks
+</td>
 
-  career_goal:
-    - Software Developer
-    - QA Engineer
-```
+<td width="50%" valign="top">
+
+<h3>Quality Engineering</h3>
+
+<ul>
+  <li>Manual Software Testing</li>
+  <li>API Testing with Postman</li>
+  <li>Playwright with C#</li>
+  <li>Selenium with Java and Python</li>
+</ul>
+
+<img src="https://skillicons.dev/icons?i=postman,selenium,cs&theme=dark"/>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+<h3>Continuous Learning</h3>
+
+<ul>
+  <li>Advanced JavaScript</li>
+  <li>Backend Development</li>
+  <li>Automation Frameworks</li>
+</ul>
+
+<img src="https://skillicons.dev/icons?i=js,react,java&theme=dark"/>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3>Career Goals</h3>
+
+<ul>
+  <li>Software Developer</li>
+  <li>QA Engineer</li>
+  <li>Building reliable software</li>
+</ul>
+
+<img src="https://img.shields.io/badge/OPEN_TO_OPPORTUNITIES-DC2856?style=flat-square"/>
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=FF527E&center=true&vCenter=true&width=700&lines=Learning+Every+Day;Building+Real+World+Projects;Engineering+Better+Software"/>
+</p>
 
 <img src="assets/pulse.svg" width="100%" alt=""/>
 
-<!-- ============= GITHUB ANALYTICS ============= -->
+<!-- ================= GITHUB ANALYTICS ================= -->
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=3500&color=FF527E&center=true&vCenter=true&width=600&lines=06+%2F+GITHUB+ANALYTICS" alt="GitHub analytics"/>
-</div>
+<h2 align="center">✦ 06 / GITHUB ANALYTICS ✦</h2>
 
 <div align="center">
 
@@ -247,18 +276,17 @@ currently_working_on:
 
 <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GadeAmeesha&layout=compact&hide_border=true&bg_color=090b14&title_color=ff527e&text_color=ffffff" alt="Most used repository languages"/>
 
-<br/>
+<br/><br/>
 
 <img width="75%" src="https://streak-stats.demolab.com?user=GadeAmeesha&hide_border=true&background=090b14&ring=FF315D&fire=FF527E&currStreakLabel=FF91B2&sideLabels=FFFFFF&dates=FF91B2&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="Contribution streak"/>
 
-<br/>
+<br/><br/>
 
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=GadeAmeesha&bg_color=090b14&color=ff91b2&line=ff315d&point=ffffff&area=true&hide_border=true" alt="Contribution graph"/>
 
 </div>
 
-
-<!-- ============= CONTRIBUTION SNAKE ============= -->
+<!-- ================= CONTRIBUTION SNAKE ================= -->
 
 <h3 align="center">🐍 Contribution Journey</h3>
 
@@ -268,46 +296,37 @@ currently_working_on:
 
 <p align="center">
   <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/GadeAmeesha/GadeAmeesha/output/github-snake-dark.svg"/>
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/GadeAmeesha/GadeAmeesha/output/github-snake.svg"/>
-    <img
-      alt="GitHub Contribution Snake"
-      src="https://raw.githubusercontent.com/GadeAmeesha/GadeAmeesha/output/github-snake.svg"
-      width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GadeAmeesha/GadeAmeesha/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GadeAmeesha/GadeAmeesha/output/github-snake.svg"/>
+    <img src="https://raw.githubusercontent.com/GadeAmeesha/GadeAmeesha/output/github-snake.svg" width="100%" alt="Contribution Snake"/>
   </picture>
 </p>
 
-<!-- ============= EDUCATION ============= -->
+<img src="assets/pulse.svg" width="100%" alt=""/>
+
+<!-- ================= EDUCATION ================= -->
+
+<h2 align="center">✦ 07 / EDUCATION ✦</h2>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=3500&color=FF527E&center=true&vCenter=true&width=600&lines=07+%2F+EDUCATION" alt="Education"/>
-</div>
 
-<div align="center">
+<h3>Dr. M.G.R. Educational and Research Institute</h3>
 
-### Dr. M.G.R. Educational and Research Institute
+<p><strong>Bachelor of Technology</strong></p>
 
-**Bachelor of Technology**
+<p>Computer Science and Engineering</p>
 
-Computer Science and Engineering
+<img src="https://img.shields.io/badge/BATCH-2022--2026-DC2856?style=for-the-badge"/>
 
-![Batch](https://img.shields.io/badge/BATCH-2022--2026-DC2856?style=for-the-badge)
-
-![CGPA](https://img.shields.io/badge/CGPA-8.8-8C1944?style=for-the-badge)
+<img src="https://img.shields.io/badge/CGPA-8.8-8C1944?style=for-the-badge"/>
 
 </div>
 
 <img src="assets/pulse.svg" width="100%" alt=""/>
 
-<!-- ============= CERTIFICATIONS ============= -->
+<!-- ================= CERTIFICATIONS ================= -->
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=3500&color=FF527E&center=true&vCenter=true&width=600&lines=08+%2F+CREDENTIALS" alt="Certifications"/>
-</div>
+<h2 align="center">✦ 08 / CREDENTIALS ✦</h2>
 
 | Certification | Issuing Organization |
 |:---|:---:|
@@ -319,11 +338,9 @@ Computer Science and Engineering
 
 <img src="assets/pulse.svg" width="100%" alt=""/>
 
-<!-- ============= CONNECT ============= -->
+<!-- ================= CONNECT ================= -->
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=3500&color=FF527E&center=true&vCenter=true&width=600&lines=09+%2F+LET'S+CONNECT" alt="Connect with me"/>
-</div>
+<h2 align="center">✦ 09 / LET'S CONNECT ✦</h2>
 
 <p align="center">
   Open to software development, quality assurance and collaborative project opportunities.
@@ -331,26 +348,24 @@ Computer Science and Engineering
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/gade-ameesha/">
-  <img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-DC2856?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+<a href="https://www.linkedin.com/in/gade-ameesha/"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-DC2856?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
-<a href="https://github.com/GadeAmeesha">
-  <img src="https://img.shields.io/badge/EXPLORE_MY_GITHUB-8C1944?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+<a href="https://github.com/GadeAmeesha"><img src="https://img.shields.io/badge/EXPLORE_MY_GITHUB-8C1944?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </div>
 
 <br/>
 
-<!-- ============= ANIMATED FOOTER ============= -->
+<!-- ================= ANIMATED FOOTER ================= -->
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=FF527E&center=true&vCenter=true&width=650&lines=Build+with+purpose.;Test+with+precision.;Learn+without+limits.;Thank+you+for+visiting!" alt="Closing message"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=FF527E&center=true&vCenter=true&width=650&lines=Build+with+purpose.;Test+with+precision.;Learn+without+limits.;Thank+you+for+visiting!"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090b14,50:8c1944,100:090b14&height=130&section=footer&animation=twinkling" width="100%" alt="Animated footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:090b14,50:8c1944,100:090b14&height=130&section=footer&animation=twinkling" width="100%"/>
 
-**Designed with passion. Driven by curiosity.**
+<p><strong>Designed with passion. Driven by curiosity.</strong></p>
+
+<p>✦ BUILD • TEST • INNOVATE • EVOLVE ✦</p>
 
 </div>
